@@ -1,0 +1,66 @@
+=======
+CHANGES
+=======
+  
+* v20.2 (2020.07.28)
+  * modify ip to connect with tomcat in nginx.conf file. 
+    * developer
+      * MW1-4
+    * Nginx 
+      * version) 1.17.9
+      * file) nginx-1.17.9.tar.gz
+      * ref) http://nginx.org/download/nginx-1.17.9.tar.gz
+    * zlib
+      * version) 1.2.11
+      * file) zlib-1.2.11.tar.gz
+      * ref) https://zlib.net/zlib-1.2.11.tar.gz;
+    * PCRE
+      * version) 8.43
+      * file) pcre-8.43
+      * ref) http://ftp.pcre.org/pub/pcre/pcre-8.43.tar.gz
+    * OpenSSL
+      * version) 1.1.1d
+      * file) openssl-1.1.1d
+      * ref) http://www.openssl.org/source/old/1.1.1/openssl-1.1.1d.tar.gz
+
+* v20.1 (2020.06.04)
+  * modify ip to connect with tomcat in nginx.conf file. 
+    * developer
+      * MW1-4
+    * Nginx 
+      * version) 1.17.9
+      * file) nginx-1.17.9.tar.gz
+      * ref) http://nginx.org/download/nginx-1.17.9.tar.gz
+    * zlib
+      * version) 1.2.11
+      * file) zlib-1.2.11.tar.gz
+      * ref) https://zlib.net/zlib-1.2.11.tar.gz;
+    * PCRE
+      * version) 8.43
+      * file) pcre-8.43
+      * ref) http://ftp.pcre.org/pub/pcre/pcre-8.43.tar.gz
+    * OpenSSL
+      * version) 1.1.1d
+      * file) openssl-1.1.1d
+      * ref) http://www.openssl.org/source/old/1.1.1/openssl-1.1.1d.tar.gz
+
+* v20.0 (2020.05.29)
+  * Create a Dockerfile for Nginx image.
+    * developer
+      * MW1-4
+    * Nginx 
+      * version) 1.17.9
+      * file) nginx-1.17.9.tar.gz
+      * ref) http://nginx.org/download/nginx-1.17.9.tar.gz
+    * zlib
+      * version) 1.2.11
+      * file) zlib-1.2.11.tar.gz
+      * ref) https://zlib.net/zlib-1.2.11.tar.gz;
+    * PCRE
+      * version) 8.43
+      * file) pcre-8.43
+      * ref) http://ftp.pcre.org/pub/pcre/pcre-8.43.tar.gz
+    * OpenSSL
+      * version) 1.1.1d
+      * file) openssl-1.1.1d
+      * ref) http://www.openssl.org/source/old/1.1.1/openssl-1.1.1d.tar.gz
