@@ -6,7 +6,7 @@ This Nginx docker file is for HyperFrame Open Edition.
 
 Docker 19.03.12 (Workspace version, recommended)
 
-### Set up Info
+### Requirements
 
 1) OS : CentOS 7
 2) Nginx : Nginx 1.17.X
