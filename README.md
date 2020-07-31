@@ -1,4 +1,4 @@
-# Nginx
+# HyperFrameOE-Nginx
 
 This is a group of Nginx Docker files with versions for HyperFrame Open Edition.
 
