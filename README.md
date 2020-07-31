@@ -57,3 +57,6 @@ $ docker run -p 8080:80 -p 443:443 <image_name>:<image_version>
 
 This project is licensed under the BSD
 
+### Version History
+
+HyperFrame OE, Nginx 1.17.9 (latest)
