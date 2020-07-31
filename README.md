@@ -1,17 +1,17 @@
 # HyperFrameOE-Nginx
 
-This is a group of Nginx Docker files with versions for HyperFrame Open Edition.
+This Nginx docker file is for HyperFrame Open Edition.
 
 ### Prerequisites
 
-Docker 19.03.12 (This is a workspace's version, other versions might be compatiable with this.)
+Docker 19.03.12 (Workspace version, recommended)
 
 ### Set up Info
 
 1) OS : CentOS 7
 2) Nginx : Nginx 1.17.X
 
-### Directory layout
+### Directory Structure
 
 ```bash
 ${pwd}
@@ -19,35 +19,35 @@ ${pwd}
 |   |- Dockerfile_list               # Dockerfile list directory
 |   |   |-<dockerfile_version> ...       # Dockerfile version
 |   |   |   |- Dockerfile
-|   |- conf                          # conf directory
-|   |   |- nginx.conf                    # The main Configuration File
+|   |- conf                          # Configuration directory
+|   |   |- nginx.conf                    # Main configuration file
 |   |- license                       # license directory
-|   |   |- LICENSE                       # Nginx License
+|   |   |- LICENSE                       # Nginx license
 |   |- ssl                           # ssl directory
-|   |   |- server.crt                    # Self-signed sample Certificate
-|   |   |- server.key                    # Private sample key for ssl certificate
-|   |   |- ssl_passwd                    # Script for setting password when using sample ssl key
+|   |   |- server.crt                    # Self-signed sample certificate
+|   |   |- server.key                    # Private sample key for SSL certificate
+|   |   |- ssl_passwd                    # Script for setting passwords for sample SSL keys
 |   |- CHANGES
 |   |- [latest]Dockerfile
 |   |- start.sh
 -- README.md
 ```
 
-### Installing:
+### Installation Steps:
 
-#### 1. Download a Dockerfile you want.
+#### 1. Download Dockerfile.
 
-#### 2. If you want to modify the configuration, change the file below the conf directory.
+#### 2. To change the configuration, modify the file under the conf directory.
 
-#### 3. Place 'Dockerfile', 'conf' directory, 'start.sh', 'license' directory, and 'ssl' directory in the same path.
+#### 3. Place the Dockerfile and start.sh files and the conf, license, and ssl directories in the same path.
 
-#### 4. Build an Docker Image.
+#### 4. Build a Docker Image.
 
 ```bash
 $ docker build -t <create image_name>:<image_version> .
 ```
 
-#### 5. Generate a Container from Image.
+#### 5. Generate a Container from the Image.
 
 ```bash
 $ docker run -p 8080:80 -p 443:443 <image_name>:<image_version>
@@ -55,7 +55,7 @@ $ docker run -p 8080:80 -p 443:443 <image_name>:<image_version>
 
 ### License
 
-This project is licensed under the BSD
+Projects are licensed under the BSD license.
 
 ### Version History
 
