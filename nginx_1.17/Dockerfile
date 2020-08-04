@@ -23,7 +23,7 @@ ENV NGINX_CONF_PATH $NGINX_PREFIX/conf
 ENV SSL_PATH $NGINX_PREFIX/ssl
 ENV LICENSE_PATH $NGINX_PREFIX/license
 
-ENV LIBRARY_DOWNLOAD_PATH https://github.com/TmaxSoftOfficial/Nginx/raw/master/lib
+ENV LIBRARY_DOWNLOAD_PATH https://github.com/TmaxSoftOfficial/HyperFrameOE-Nginx/raw/master/lib
 
 ENV ZLIB_VERSION 1.2.11
 ENV PCRE_VERSION 8.43
