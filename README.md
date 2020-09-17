@@ -55,7 +55,7 @@ $ docker run -p 8080:80 -p 443:443 <image_name>:<image_version>
 
 ### License
 
-Projects are licensed under the BSD license.
+Projects are licensed under the BSD license. See the [LICENSE](https://github.com/TmaxSoftOfficial/HyperFrameOE-Nginx/blob/master/nginx_1.17/license/LICENSE) file.
 
 ### Version History
 
