@@ -9,7 +9,7 @@ Docker 19.03.12 (Workspace version, recommended)
 ## Requirements
 
 #### 1) OS : CentOS 7
-#### 2) Nginx : Nginx 1.17.X
+#### 2) Nginx : Nginx 1.17.x
 
 ## Directory Structure
 
