@@ -1,4 +1,4 @@
-# HyperFrameOE-Nginx
+# HyperFrameOE-Nginx-Image
 
 This Nginx docker file is for HyperFrame Open Edition.
 
