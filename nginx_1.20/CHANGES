@@ -1,6 +1,27 @@
 =======
 CHANGES
 =======
+
+* v22.0 (2022.12.05)
+  * modify ip to connect with tomcat in nginx.conf file.
+    * developer
+      * MW1-4
+    * Nginx
+      * version) 1.20.1
+      * file) nginx-1.20.1.tar.gz
+      * ref) http://nginx.org/download/nginx-1.20.1.tar.gz
+    * zlib
+      * version) 1.2.11
+      * file) zlib-1.2.11.tar.gz
+      * ref) https://zlib.net/fossils/zlib-1.2.11.tar.gz
+    * PCRE
+      * version) 8.45
+      * file) pcre-8.45
+      * ref) http://sourceforge.net/projects/pcre/files/pcre/8.45/pcre-8.45.tar.gz/download
+    * OpenSSL
+      * version) 1.1.1l
+      * file) openssl-1.1.1l
+      * ref) http://www.openssl.org/source/old/1.1.1/openssl-1.1.1l.tar.gz
   
 * v20.2 (2020.07.28)
   * modify ip to connect with tomcat in nginx.conf file. 
