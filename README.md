@@ -4,18 +4,18 @@ This Nginx docker file is for HyperFrame Open Edition.
 
 ## Prerequisites
 
-Docker 19.03.12 (Workspace version, recommended)
+Docker 20.10.18 (Workspace version, recommended)
 
 ## Requirements
 
 #### 1) OS : CentOS 7
-#### 2) Nginx : Nginx 1.17.x
+#### 2) Nginx : Nginx 1.20.x
 
 ## Directory Structure
 
 ```bash
 ${pwd}
-|- nginx_1.17
+|- nginx_1.20
 |   |- Dockerfile_list               # Dockerfile list directory
 |   |   |-<dockerfile_version> ...       # Dockerfile version
 |   |   |   |- Dockerfile
@@ -39,7 +39,7 @@ ${pwd}
 
 ### Method 1. Using Dockerfile and binary downloaded from GitHub
 
-#### 1. Go to the following site: https://github.com/TmaxSoftOfficial/HyperFrameOE-Nginx-Image.
+#### 1. Go to the following site: https://github.com/TmaxSoftOfficial/HyperFrame-Nginx-Image.
 
 #### 2. Download the Dockerfile and binary.
 
@@ -82,11 +82,11 @@ $ docker run -d -p 8080:80 -p 443:443 tmaxsoftofficial/hyperframeoe-nginx:latest
 
 ## License
 
-Projects are licensed under the BSD license. See the [License](https://github.com/TmaxSoftOfficial/HyperFrameOE-Nginx/blob/master/nginx_1.17/license/LICENSE) file.
+Projects are licensed under the BSD license. See the [License](https://github.com/TmaxSoftOfficial/HyperFrame-Nginx-Image/blob/master/nginx_1.20/license/LICENSE) file.
 
 ## Version History
 
-[HyperFrame OE, Nginx 1.17.9](https://github.com/TmaxSoftOfficial/HyperFrameOE-Nginx/blob/master/nginx_1.17/Dockerfile "dockerfile link") (latest)
+[HyperFrame OE, Nginx 1.20.1](https://github.com/TmaxSoftOfficial/HyperFrame-Nginx-Image/blob/master/nginx_1.20/Dockerfile "dockerfile link") (latest)
 
 ## HyperFrameOE Service Level
-[HyperFrameOE Service Level](https://github.com/TmaxSoftOfficial/HyperFrameOE-About/blob/master/ServiceLevel.md)
+[HyperFrameOE Service Level](https://github.com/TmaxSoftOfficial/HyperFrame-About/blob/master/ServiceLevel.md)
